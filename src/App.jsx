@@ -48,16 +48,11 @@ Return JSON like this:
 }
 No explanation, only JSON.`;
 
-    const response = await axios.post('https://openrouter.ai/api/v1/chat/completions', {
-      model: 'mistralai/mixtral-8x7b-instruct',  
-      messages: [{ role: 'user', content: prompt }],
-      temperature: 0.2
-    }, {
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${API_KEY}`,
-      }
-    });
+    const response = await axios.post('/api/openrouter', {
+  model: 'mistralai/mixtral-8x7b-instruct',
+  messages: [{ role: 'user', content: prompt }],
+  temperature: 0.2
+});
 
     const reply = response.data.choices[0].message.content;
     console.log('OpenRouter Response:', reply);
