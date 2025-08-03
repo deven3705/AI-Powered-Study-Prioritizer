@@ -30,7 +30,7 @@ function App() {
   };
 
   const callOpenRouterAPI = async () => {
-    const API_KEY = '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'; 
+    const API_KEY = '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'; 
 
     const prompt = `You are an AI Study Planner. For each subject, calculate a weight based on:
 - 70% Difficulty + 30% Importance.
