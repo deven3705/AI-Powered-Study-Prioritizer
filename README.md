@@ -3,7 +3,7 @@ An intelligent web application that dynamically allocates study time across subj
 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________
  
- # Live Demo  [click here](ai-powered-study-prioritizer-git-main-deven3705s-projects.vercel.app)
+ # Live Demo  [click here](https://ai-powered-study-prioritizer-git-main-deven3705s-projects.vercel.app)
 
  # Features
  🎯 Subject Prioritization using AI (OpenRouter API)
